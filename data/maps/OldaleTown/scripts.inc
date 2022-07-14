@@ -397,5 +397,5 @@ OldaleTown_Text_BrendanLetsGoBack:
 
 OldaleTown_Text_CitySign:
 	.string "OLDALE TOWN\n"
-	.string "“Where things start off scarce.”$"
+	.string "«Where things start off scarce.»$"
 

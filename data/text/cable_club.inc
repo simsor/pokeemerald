@@ -252,7 +252,7 @@ MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
 	.string "Which game should I describe?$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
-	.string "“POKéMON JUMP”\p"
+	.string "«POKéMON JUMP»\p"
 	.string "Make your POKéMON skip the VINE WHIP\n"
 	.string "rope with the A Button.\p"
 	.string "Only mini POKéMON around 28 inches\n"
@@ -265,7 +265,7 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 	.string "jumps in time.$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "“DODRIO BERRY-PICKING”\p"
+	.string "«DODRIO BERRY-PICKING»\p"
 	.string "Command DODRIO's three heads to\n"
 	.string "catch falling BERRIES.\p"
 	.string "Press right, up, or left on the\n"
@@ -314,7 +314,7 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
 	.string "kinds of POKéMON can enter?$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
-	.string "“POKéMON JUMP” is open to POKéMON\n"
+	.string "«POKéMON JUMP» is open to POKéMON\n"
 	.string "around 28 inches or less.\p"
 	.string "What you can't enter are those\n"
 	.string "POKéMON that can't jump.\p"
@@ -373,19 +373,19 @@ CableClub_Text_ChooseGroupLeaderOfTwo:
 	.string "Please decide which of you two\n"
 	.string "will become the LEADER.\p"
 	.string "The other player must then choose\n"
-	.string "“JOIN GROUP.”$"
+	.string "«JOIN GROUP.»$"
 
 CableClub_Text_ChooseGroupLeaderOfFour:
 	.string "Please decide which of you four\n"
 	.string "will become the GROUP LEADER.\p"
 	.string "The other players must then choose\n"
-	.string "“JOIN GROUP.”$"
+	.string "«JOIN GROUP.»$"
 
 CableClub_Text_ChooseGroupLeader:
 	.string "Please decide which of you will\n"
 	.string "become the GROUP LEADER.\p"
 	.string "The other players must then choose\n"
-	.string "“JOIN GROUP.”$"
+	.string "«JOIN GROUP.»$"
 
 CableClub_Text_WelcomeUnionRoomEnter:
 	.string "Welcome to the POKéMON WIRELESS\n"

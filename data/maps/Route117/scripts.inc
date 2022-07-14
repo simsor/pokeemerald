@@ -204,5 +204,5 @@ Route117_Text_RouteSignMauville:
 
 Route117_Text_DayCareSign:
 	.string "POKéMON DAY CARE\n"
-	.string "“Let us raise your POKéMON.”$"
+	.string "«Let us raise your POKéMON.»$"
 
