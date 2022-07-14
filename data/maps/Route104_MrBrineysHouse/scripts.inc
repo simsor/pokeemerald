@@ -150,8 +150,8 @@ Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "M. MARCO: Ohé!\n"
-	.string "Pour toi, je sors en mer quand tu veux!\p"
-	.string "Alors, où partons-nous?$"
+	.string "Je peux appareiller quand tu veux!\p"
+	.string "Bien! Où va-t-on, mon pote?$"
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
 	.string "M. MARCO: Ah bon?\n"
