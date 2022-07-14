@@ -341,7 +341,7 @@ RivalsHouse_1F_Text_LikeChildLikeFather:
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
 @ TODO: Check the string in-game
-	.string "{RIVAL} !\p"
+	.string "{RIVAL}!\p"
 	.string "Je suppose que notre enfant s'occupe\n"
 	.string "de ses POKéMON et n'a pas le temps\l"
 	.string "de discuter avec toi, {PLAYER}{KUN}.$"
