@@ -1015,13 +1015,14 @@ LittlerootTown_Text_ProfBirchsHouse:
 	.string "MAISON DU PROF. SEKO$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
-	.string "That was good work out there!\p"
-	.string "I knew there was something special\n"
-	.string "about you when I first saw you,\l"
-	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
-	.string "I gave you?\p"
-	.string "I have something to show you.\n"
-	.string "Let's go to my LAB.$"
+	.string "PROF. SEKO: Tiens, {PLAYER}{KUN}!\n"
+	.string "Toutes mes félicitations pour\l"
+	.string "tes exploits!\p"
+	.string "J'ai su que tu avais quelque\n"
+	.string "chose de spécial dès notre rencontre.\l"
+	.string "Mais je n'imaginais pas tout ça!\p"
+	.string "Au fait, tu as toujours le POKéDEX\n"
+	.string "que je t'ai donné?\p"
+	.string "Il faut que je te montre quelque chose,\n"
+	.string "suis-moi au LABO.$"
 
