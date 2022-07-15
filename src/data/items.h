@@ -1046,7 +1046,7 @@ const struct Item gItems[] =
 
     [ITEM_SUPER_REPEL] =
     {
-        .name = _("SUPER REPOUSSE"),
+        .name = _("SUPEREPOUSSE"),
         .itemId = ITEM_SUPER_REPEL,
         .price = 500,
         .holdEffectParam = 200,
