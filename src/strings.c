@@ -248,11 +248,11 @@ const u8 gText_UsedVar2WildLured[] = _("{PLAYER} utilise\n{STR_VAR_2}.\pÇa va a
 const u8 gText_UsedVar2WildRepelled[] = _("{PLAYER} utilise\n{STR_VAR_2}.\pÇa va repousser les POKéMON\nsauvages.{PAUSE_UNTIL_PRESS}");
 const u8 gText_BoxFull[] = _("Les BOITES sont pleines.{PAUSE_UNTIL_PRESS}");
 const u8 gText_PowderQty[] = _("QUANT. POUDRE: {STR_VAR_1}{PAUSE_UNTIL_PRESS}");
-const u8 gText_TheField[] = _("the field");
-const u8 gText_TheBattle[] = _("the battle");
-const u8 gText_ThePokemonList[] = _("the POKéMON LIST");
-const u8 gText_TheShop[] = _("the shop");
-const u8 gText_ThePC[] = _("the PC");
+const u8 gText_TheField[] = _("au jeu");
+const u8 gText_TheBattle[] = _("au combat");
+const u8 gText_ThePokemonList[] = _("à la LISTE POKéMON");
+const u8 gText_TheShop[] = _("au magasin");
+const u8 gText_ThePC[] = _("au PC");
 
 const u8 *const gBagMenu_ReturnToStrings[] =
 {
@@ -278,7 +278,7 @@ const u8 *const gPyramidBagMenu_ReturnToStrings[] =
     [PYRAMIDBAG_LOC_CHOOSE_TOSS] = gText_TheField
 };
 
-const u8 gText_ReturnToVar1[] = _("Return to\n{STR_VAR_1}.");
+const u8 gText_ReturnToVar1[] = _("Retourner\n{STR_VAR_1}.");
 const u8 gText_ItemsPocket[] = _("OBJETS");
 const u8 gText_PokeBallsPocket[] = _("POKé BALLS");
 const u8 gText_TMHMPocket[] = _("CT & CS");
