@@ -35,24 +35,13 @@ OldSeaMap_Obtained:
 	end
 
 sText_MysteryGiftOldSeaMapForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Let me confirm--you are {PLAYER}?\p"
-	.string "We received this OLD SEA MAP\n"
-	.string "addressed to you.$"
+	.string "Merci d'utiliser le système\nCADEAU MYST.\pVous devez être {PLAYER}.\nIl y a une VIEILLECARTE pour vous.$"
 
 sText_MysteryGiftOldSeaMapUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Elle peut être utilisée au port de\nNENUCRIQUE.\pEssayez-la pour voir de quoi \nil s'agit.$"
 
 sText_MysteryGiftOldSeaMapThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "Merci d'utiliser le système\nCADEAU MYST.$"
 
 sText_MysteryGiftOldSeaMapBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Oh, je regrette, {PLAYER}. La POCHE\nOBJ. RARES du SAC est pleine.\pFaites de la place dans votre SAC\net revenez me voir.$"

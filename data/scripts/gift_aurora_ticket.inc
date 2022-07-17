@@ -35,23 +35,13 @@ AuroraTicket_Obtained:
 	end
 
 sText_AuroraTicketForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "Merci d'utiliser le système\nCADEAU MYST.\pVous devez être {PLAYER}.\nIl y a un ticket pour vous.$"
 
 sText_AuroraTicketUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Il peut être utilisé au port de\nNENUCRIQUE.\pEssayez-le pour voir de quoi \nil s'agit.$"
 
 sText_AuroraTicketThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "Merci d'utiliser le système\nCADEAU MYST.$"
 
 sText_AuroraTicketBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Oh, je regrette, {PLAYER}. La POCHE\nOBJ. RARES du SAC est pleine.\pFaites de la place dans votre SAC\net revenez me voir.$"
