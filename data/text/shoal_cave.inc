@@ -1,53 +1,26 @@
 ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere:
-	.string "Are you planning on going deep\n"
-	.string "in there?\p"
-	.string "How about bringing me back some\n"
-	.string "SHOAL SALT and SHOAL SHELLS?\p"
-	.string "I can make you something good if\n"
-	.string "you bring me the ingredients.$"
+	.string "Tu as prévu d'aller loin?\pEt si tu m'apportais des SELS TREFONDS\net des CO. TREFONDS?\pJe peux te préparer quelque chose\nde bon si tu m'apportes ce qu'il faut.$"
 
 ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
-	.string "If you bring me four each of the\n"
-	.string "SHOAL SALT and SHOAL SHELLS,\l"
-	.string "I can make you a SHELL BELL…\p"
-	.string "You can get those ingredients\n"
-	.string "every day.$"
+	.string "Si tu m'apportais quatre SELS TREFONDS\net quatre CO. TREFONDS, je pourrais te\lfaire un GRELOT COQUE.\pTu peux te procurer ces ingrédients\ntous les jours.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
-	.string "Oh, hey! SHOAL SALT and SHOAL SHELLS!\n"
-	.string "And enough of them, too!\p"
-	.string "Would you like me to make you\n"
-	.string "a SHELL BELL with them?$"
+	.string "Oh, hé! Des SELS TREFONDS et des \nCO. TREFONDS! Et suffisamment!\pTu veux que je les utilise\npour faire un GRELOT COQUE?$"
 
 ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
-	.string "All righty, then! I'll make you\n"
-	.string "a SHELL BELL right away.\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "There! Done!$"
+	.string "Bon, d'accord! Je te fais un\nGRELOT COQUE sur-le-champ.\p… … … … … … … …\n… … … … … … … …\pVoilà! C'est prêt!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "Have a POKéMON hold on to that.\n"
-	.string "It'll love it, that's for certain.\p"
-	.string "Why, the SHELL BELL's chime…\n"
-	.string "It's simply sublime!\p"
-	.string "You can get its ingredients every day,\n"
-	.string "so I can make you more.$"
+	.string "Gardes-en pour un POKéMON.\nIl va adorer ça, c'est sûr!\pQuoi, le carillon du GRELOT COQUE…\nSublime!\pTu peux avoir ses ingrédients tous les\njours. Alors je peux t'en faire d'autres.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell:
-	.string "Oh… Is that so…\n"
-	.string "I wanted to make a SHELL BELL…$"
+	.string "Oh… Dans ce cas…\nJe voulais faire un GRELOT COQUE…$"
 
 ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
-	.string "You don't have space in your BAG\n"
-	.string "if I were to make it for you.\p"
-	.string "You should make room and come back\n"
-	.string "for a SHELL BELL.$"
+	.string "Tu n'as pas assez de place dans ton SAC\npour recevoir ça.\pTu devrais faire de la place et\nrevenir pour avoir un GRELOT COQUE.$"
 
 ShoalCave_Text_WasShoalSaltNowNothing:
-	.string "There was some SHOAL SALT here.\n"
-	.string "But, there's nothing here now.$"
+	.string "Il y avait du SEL TREFONDS ici.\nMais il n'y a plus rien.$"
 
 ShoalCave_Text_WasShoallShellNowNothing:
-	.string "There was a SHOAL SHELL here.\n"
-	.string "But, there's nothing here now.$"
+	.string "Il y avait un CO. TREFONDS ici.\nMais il n'y a plus rien.$"
