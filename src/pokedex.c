@@ -4145,32 +4145,21 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
 static void PrintMonHeight(u16 height, u8 left, u8 top)
 {
     u8 buffer[16];
-    u32 inches, feet;
+    u8 meters, decimeters;
     u8 i = 0;
 
-    inches = (height * 10000) / 254;
-    if (inches % 10 >= 5)
-        inches += 10;
-    feet = inches / 120;
-    inches = (inches - (feet * 120)) / 10;
+    meters = height / 10;
+    decimeters = height % 10;
 
-    buffer[i++] = EXT_CTRL_CODE_BEGIN;
-    buffer[i++] = EXT_CTRL_CODE_CLEAR_TO;
-    if (feet / 10 == 0)
-    {
-        buffer[i++] = 18;
-        buffer[i++] = feet + CHAR_0;
-    }
-    else
-    {
-        buffer[i++] = 12;
-        buffer[i++] = feet / 10 + CHAR_0;
-        buffer[i++] = (feet % 10) + CHAR_0;
-    }
-    buffer[i++] = CHAR_SGL_QUOTE_RIGHT;
-    buffer[i++] = (inches / 10) + CHAR_0;
-    buffer[i++] = (inches % 10) + CHAR_0;
-    buffer[i++] = CHAR_DBL_QUOTE_RIGHT;
+    buffer[i++] = CHAR_SPACER;
+    buffer[i++] = CHAR_SPACER;
+    buffer[i++] = CHAR_SPACER;
+    buffer[i++] = CHAR_SPACER;
+    buffer[i++] = meters + CHAR_0;
+    buffer[i++] = CHAR_COMMA;
+    buffer[i++] = decimeters + CHAR_0;
+    buffer[i++] = CHAR_SPACE;
+    buffer[i++] = CHAR_m;
     buffer[i++] = EOS;
     PrintInfoScreenText(buffer, left, top);
 }
@@ -4180,14 +4169,15 @@ static void PrintMonWeight(u16 weight, u8 left, u8 top)
     u8 buffer[16];
     bool8 output;
     u8 i;
-    u32 lbs = (weight * 100000) / 4536;
+    u32 kg = weight / 10;
+    u32 dg = weight % 10;
 
-    if (lbs % 10u >= 5)
-        lbs += 10;
     i = 0;
     output = FALSE;
 
-    if ((buffer[i] = (lbs / 100000) + CHAR_0) == CHAR_0 && !output)
+    buffer[i++] = CHAR_SPACER;
+    buffer[i++] = CHAR_SPACER;
+    if ((buffer[i] = (kg / 100) + CHAR_0) == CHAR_0 && !output)
     {
         buffer[i++] = CHAR_SPACER;
     }
@@ -4197,8 +4187,8 @@ static void PrintMonWeight(u16 weight, u8 left, u8 top)
         i++;
     }
 
-    lbs %= 100000;
-    if ((buffer[i] = (lbs / 10000) + CHAR_0) == CHAR_0 && !output)
+    kg %= 100;
+    if ((buffer[i] = (kg / 10) + CHAR_0) == CHAR_0 && !output)
     {
         buffer[i++] = CHAR_SPACER;
     }
@@ -4208,27 +4198,13 @@ static void PrintMonWeight(u16 weight, u8 left, u8 top)
         i++;
     }
 
-    lbs %= 10000;
-    if ((buffer[i] = (lbs / 1000) + CHAR_0) == CHAR_0 && !output)
-    {
-        buffer[i++] = CHAR_SPACER;
-    }
-    else
-    {
-        output = TRUE;
-        i++;
-    }
-
-    lbs %= 1000;
-    buffer[i++] = (lbs / 100) + CHAR_0;
-    lbs %= 100;
-    buffer[i++] = CHAR_PERIOD;
-    buffer[i++] = (lbs / 10) + CHAR_0;
+    kg %= 10;
+    buffer[i++] = kg + CHAR_0;
+    buffer[i++] = CHAR_COMMA;
+    buffer[i++] = dg + CHAR_0;
     buffer[i++] = CHAR_SPACE;
-    buffer[i++] = CHAR_l;
-    buffer[i++] = CHAR_b;
-    buffer[i++] = CHAR_s;
-    buffer[i++] = CHAR_PERIOD;
+    buffer[i++] = CHAR_k;
+    buffer[i++] = CHAR_g;
     buffer[i++] = EOS;
     PrintInfoScreenText(buffer, left, top);
 }
