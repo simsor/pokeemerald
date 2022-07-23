@@ -4,7 +4,7 @@ gTest_MissedTurn::
 	.string "Missed turn$"
 
 gText_LinkStandby4::
-	.string "Link standby!$"
+	.string "Connexion…$"
 
 gText_WinnerIsPlayersMonCongrats::
 	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!\n"

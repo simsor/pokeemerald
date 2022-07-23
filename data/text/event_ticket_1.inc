@@ -1,41 +1,23 @@
 EventTicket_Text_ShowOldSeaMap:
-	.string "The ferry to SLATEPORT is…\p"
-	.string "I beg your pardon?\n"
-	.string "Can we sail to this place on the map?\p"
-	.string "I know someone who will help you better.\n"
-	.string "Please wait.$"
+	.string "Le ferry allant à POIVRESSEL est…\pPardon? Est-ce que nous pouvons aller\nà cet endroit indiqué sur la carte?\pJe connais quelqu'un qui pourra t'aider.\nUn instant.$"
 
 EventTicket_Text_ThatPass:
-	.string "The ferry to SLATEPORT is…\p"
-	.string "Oh?\n"
-	.string "That PASS…$"
+	.string "Le ferry allant à POIVRESSEL est…\pOh?\nCe PASSE…$"
 
 EventTicket_Text_ShowEonTicket:
-	.string "Aye, mate, are you the one who brought\n"
-	.string "that mighty odd PASS?\p"
-	.string "I'll tell you, you're trying to reach a\n"
-	.string "tiny spit of an island far in the south.\p"
-	.string "There's no telling what we'll encounter\n"
-	.string "once we reach there, aye.\l"
-	.string "That shivers my timbers!\p"
-	.string "All aboard!$"
+	.string "Hé, mon p'tit, c'est toi qui as apporté\nce drôle de PASSE?\pJ'vais t'dire, tu te diriges vers une\nîle minuscule beaucoup plus au sud.\pImpossible de dire ce qui t'attend\nlà-bas, mon p'tit.\pÇa me donne la chair de poule!\pTout le monde à bord!$"
 
 EventTicket_Text_SouthernIslandSailBack:
-	.string "Aye, mate, there's nothing here to\n"
-	.string "see or do on this forgettable island.\p"
-	.string "What say we sail back to LILYCOVE?$"
+	.string "Dis, mon p'tit, y a absolument rien à voir\nsur cette île perdue.\pOn retourne à NENUCRIQUE?$"
 
 EventTicket_Text_SailHome:
-	.string "Aye, right, then!\n"
-	.string "Sail home we will!$"
+	.string "C'est d'accord, mon p'tit!\nOn est partis!$"
 
 EventTicket_Text_AsYouLike:
-	.string "Aye, right, as you like, then.$"
+	.string "D'accord, mon p'tit, comme tu veux.$"
 
 SouthernIsland_Interior_Text_Sign:
-	.string "«All dreams are but another reality.\n"
-	.string "Never forget…»$"
+	.string "«Les rêves ne sont qu'une autre\nréalité. Ne jamais l'oublier…»$"
 
 SouthernIsland_Exterior_Text_Sign:
-	.string "«Those whose memories fade seek to\n"
-	.string "carve them in their hearts…»$"
+	.string "«Ceux dont les souvenirs s'estompent\ncherchent à les graver dans leur cœur.»$"
